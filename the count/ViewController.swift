@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  the count
 //
-//  Created by Виталий Орлов on 24.02.2024.
+//  Created by Vitaly Orlov on 24.02.2024.
 //
 
 import Cocoa

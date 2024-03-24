@@ -81,7 +81,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         let alert = NSAlert()
         alert.messageText = "Set Interval"
-        alert.informativeText = "Введите интервал для счётчика:"
+        alert.informativeText = "Интервал счётчика:"
         alert.addButton(withTitle: "ОК")
         alert.addButton(withTitle: "Отмена")
         let inputTextField = NSTextField(frame: NSRect(x: 0, y: 0, width: 200, height: 24))
