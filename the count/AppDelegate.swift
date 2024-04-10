@@ -83,7 +83,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         alert.messageText = "Set Interval"
         alert.informativeText = "Interval:"
         alert.addButton(withTitle: "OK")
-        alert.addButton(withTitle: "None")
+        alert.addButton(withTitle: "Cancel")
         let inputTextField = NSTextField(frame: NSRect(x: 0, y: 0, width: 200, height: 24))
         inputTextField.stringValue = "\(interval)"
         alert.accessoryView = inputTextField
