@@ -55,9 +55,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         let alert = NSAlert()
         alert.messageText = "The Count"
-        alert.informativeText = "Введите значение счётчика:"
+        alert.informativeText = "Set Value:"
         alert.addButton(withTitle: "ОК")
-        alert.addButton(withTitle: "Отмена")
+        alert.addButton(withTitle: "Cancel")
         let inputTextField = NSTextField(frame: NSRect(x: 0, y: 0, width: 200, height: 24))
         inputTextField.stringValue = "\(counter)" // Убедитесь, что переменная `counter` существует и имеет правильное значение
         alert.accessoryView = inputTextField
@@ -81,9 +81,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         let alert = NSAlert()
         alert.messageText = "Set Interval"
-        alert.informativeText = "Интервал счётчика:"
-        alert.addButton(withTitle: "ОК")
-        alert.addButton(withTitle: "Отмена")
+        alert.informativeText = "Interval:"
+        alert.addButton(withTitle: "OK")
+        alert.addButton(withTitle: "Cancel")
         let inputTextField = NSTextField(frame: NSRect(x: 0, y: 0, width: 200, height: 24))
         inputTextField.stringValue = "\(interval)"
         alert.accessoryView = inputTextField
